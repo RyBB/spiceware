@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "desktop": {
+    "js": ["js/desktop.js"],
+    "css": ["css/51-modern-default.css", "css/desktop.css"]
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": ["js/kintone-config-helper.js", "js/config.js"],
+    "css": ["css/51-modern-default.css", "css/config.css"]
+  },
+  "name": {
+    "en": "spiceware-sample-project2",
+    "ja": "spiceware-sample-project2"
+  },
+  "description": {
+    "en": "spiceware-sample-project2"
+  },
+  "mobile": {
+    "js": ["js/desktop_mobile.js"],
+    "css": ["css/51-modern-default.css", "css/desktop.css"]
+  }
+}
